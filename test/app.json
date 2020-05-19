@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0088CC",
+    "navigationBarTitleText": "日记",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#111",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/note/note",
+        "selectedIconPath": "imag/riji-selected.png",
+        "iconPath": "imag/riji.png",
+        "text": "日记"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "imag/wode-selected.png",
+        "iconPath": "imag/wode.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
